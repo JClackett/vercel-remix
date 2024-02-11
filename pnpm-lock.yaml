@@ -85,9 +85,6 @@ importers:
       prettier:
         specifier: 3.2.5
         version: 3.2.5
-      remix-flat-routes:
-        specifier: 0.6.0
-        version: 0.6.0(@remix-run/dev@2.6.0)
       typescript:
         specifier: 5.3.3
         version: 5.3.3
@@ -1321,15 +1318,6 @@ packages:
       set-cookie-parser: 2.6.0
       source-map: 0.7.4
       typescript: 5.3.3
-
-  /@remix-run/v1-route-convention@0.1.4(@remix-run/dev@2.6.0):
-    resolution: {integrity: sha512-fVTr9YlNLWfaiM/6Y56sOtcY8x1bBJQHY0sDWO5+Z/vjJ2Ni7fe2fwrzs1jUFciMPXqBQdFGePnkuiYLz3cuUA==}
-    peerDependencies:
-      '@remix-run/dev': ^1.15.0 || ^2.0.0
-    dependencies:
-      '@remix-run/dev': 2.6.0(@remix-run/serve@2.6.0)(typescript@5.3.3)
-      minimatch: 7.4.6
-    dev: true
 
   /@remix-run/web-blob@3.1.0:
     resolution: {integrity: sha512-owGzFLbqPH9PlKb8KvpNJ0NO74HWE2euAn61eEiyCXX/oteoVzTVSN8mpLgDjaxBf2btj5/nUllSUgpyd6IH6g==}
@@ -4653,20 +4641,6 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
-  /minimatch@5.1.6:
-    resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
-    engines: {node: '>=10'}
-    dependencies:
-      brace-expansion: 2.0.1
-    dev: true
-
-  /minimatch@7.4.6:
-    resolution: {integrity: sha512-sBz8G/YjVniEz6lKPNpKxXwazJe4c19fEfV2GDMX6AjFz+MX9uDWIZW8XreVhkFW3fkIdTv/gxWr/Kks5FFAVw==}
-    engines: {node: '>=10'}
-    dependencies:
-      brace-expansion: 2.0.1
-    dev: true
-
   /minimatch@9.0.3:
     resolution: {integrity: sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -5434,17 +5408,6 @@ packages:
       '@types/mdast': 3.0.15
       mdast-util-to-hast: 12.3.0
       unified: 10.1.2
-
-  /remix-flat-routes@0.6.0(@remix-run/dev@2.6.0):
-    resolution: {integrity: sha512-4NLfAl2hLyZeARzo4QFNDhF3hSim5hIuaMH54YV3tyk+EJvm56jMc17jQ7/29Lvkv/bADu365LY3GtdY3L4Lhw==}
-    hasBin: true
-    peerDependencies:
-      '@remix-run/dev': ^1.15.0 || ^2
-    dependencies:
-      '@remix-run/dev': 2.6.0(@remix-run/serve@2.6.0)(typescript@5.3.3)
-      '@remix-run/v1-route-convention': 0.1.4(@remix-run/dev@2.6.0)
-      minimatch: 5.1.6
-    dev: true
 
   /require-like@0.1.2:
     resolution: {integrity: sha512-oyrU88skkMtDdauHDuKVrgR+zuItqr6/c//FXzvmxRGMexSDc6hNvJInGW3LL46n+8b50RykrvwSUIIQH2LQ5A==}
